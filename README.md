@@ -6,6 +6,6 @@ This repo contains examples uses of the CosmoExplorer compute portal and OpenCos
 
 Important links:
 
-[CosmoExplorer](https://cosmoexplorer.alcf.anl.gov)
-[OpenCosmo Toolkit](https://github.com/ArgoneCPAC/opencosmo)
-[OpenCosmo Docs](https://opencosmo.readthedocs.io)
+- [CosmoExplorer](https://cosmoexplorer.alcf.anl.gov)
+- [OpenCosmo Toolkit](https://github.com/ArgoneCPAC/opencosmo)
+- [OpenCosmo Docs](https://opencosmo.readthedocs.io)
