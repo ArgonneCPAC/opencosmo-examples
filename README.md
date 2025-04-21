@@ -1,4 +1,4 @@
-CosmoExplorer Examples
+OpenCosmo Examples
 ======================
 
 This repo contains examples uses of the CosmoExplorer compute portal and OpenCosmo toolkit. They are split into three categories:
