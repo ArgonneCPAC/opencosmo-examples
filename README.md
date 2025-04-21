@@ -12,6 +12,6 @@ Some of the activities have notebooks with walkthroughs. Others are left for you
 Important links:
 
 - [CosmoExplorer](https://cosmoexplorer.alcf.anl.gov)
-- [OpenCosmo Toolkit](https://github.com/ArgoneCPAC/opencosmo)
+- [OpenCosmo Toolkit](https://github.com/ArgonneCPAC/opencosmo)
 - [OpenCosmo Docs](https://opencosmo.readthedocs.io)
 - [Google Drive Folder with Example Data](https://drive.google.com/drive/folders/1CYmZ4sE-RdhRdLhGuYR3rFfgyA3M1mU-?usp=sharing)
