@@ -1,7 +1,7 @@
 Intermediate
 ------------
 
-This folder contains activies that are desgigned to help you do slightly more sophisticated analysis with the OpenCosmo toolkit and compute portal. If you haven't already check out [Getting Started](/getting-started)
+This folder contains activies that are desgigned to help you do slightly more sophisticated analysis with the OpenCosmo toolkit and compute portal. If you haven't already check out [Getting Started](/01-getting-started)
 
 ### Activities
 
