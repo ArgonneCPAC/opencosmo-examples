@@ -1,5 +1,5 @@
-Advance
-------------
+Advanced
+--------
 
 This folder contains activies that are desgigned to cover more advanced use cases. Many of them will require you to directly interact with the data at ALCF, rather than using the portal. However the toolkit is built to handle these kinds of complex use cases, so you don't have to start from scratch! 
 
