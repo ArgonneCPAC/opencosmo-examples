@@ -1,0 +1,258 @@
+[paths]
+global_statistics = "/eagle/OpenCosmo/SCIDAC_new/KAPPA_2.381_EGW_0.809_SEED_8.476e5_VKIN_6587.000_EPS_9.565/output/global_statistics/m000p.globalStatistics.ascii"
+binned_particle_statistics = "/eagle/OpenCosmo/SCIDAC_new/KAPPA_2.381_EGW_0.809_SEED_8.476e5_VKIN_6587.000_EPS_9.565/output/global_statistics/m000p.globalBinnedStatistics.624.ascii"
+powerspectrum = "/eagle/OpenCosmo/SCIDAC_new/KAPPA_2.381_EGW_0.809_SEED_8.476e5_VKIN_6587.000_EPS_9.565/output/power_spectra/m000p.pk.624"
+full_alive = "/eagle/OpenCosmo/SCIDAC_new/KAPPA_2.381_EGW_0.809_SEED_8.476e5_VKIN_6587.000_EPS_9.565/output/full_snapshots/m000p.full.mpicosmo.624"
+full_alive_subgrid = "/eagle/OpenCosmo/SCIDAC_new/KAPPA_2.381_EGW_0.809_SEED_8.476e5_VKIN_6587.000_EPS_9.565/output/full_snapshots/m000p.subgrid.full.mpicosmo.624"
+halo_catalog = "/eagle/OpenCosmo/SCIDAC_new/KAPPA_2.381_EGW_0.809_SEED_8.476e5_VKIN_6587.000_EPS_9.565/analysis/haloproperties/step_{step}/m000p-{step}.haloproperties"
+halo_profiles = "/eagle/OpenCosmo/SCIDAC_new/KAPPA_2.381_EGW_0.809_SEED_8.476e5_VKIN_6587.000_EPS_9.565/analysis/sodpropertybins/step_{step}/m000p-delta200.0-{step}.sodpropertybins"
+halo_particles = "/eagle/OpenCosmo/SCIDAC_new/KAPPA_2.381_EGW_0.809_SEED_8.476e5_VKIN_6587.000_EPS_9.565/analysis/sodbighaloparticles/step_{step}/m000p-{step}.sodbighaloparticles"
+halo_sg_particles = "/eagle/OpenCosmo/SCIDAC_new/KAPPA_2.381_EGW_0.809_SEED_8.476e5_VKIN_6587.000_EPS_9.565/analysis/sodbighaloparticles/step_624/m000p-624.sodbighaloparticles"
+galaxy_catalog = "/eagle/OpenCosmo/SCIDAC_new/KAPPA_2.381_EGW_0.809_SEED_8.476e5_VKIN_6587.000_EPS_9.565/analysis/galaxyproperties/step_{step}/m000p-{step}.galaxyproperties"
+galaxy_profiles = "/eagle/OpenCosmo/SCIDAC_new/KAPPA_2.381_EGW_0.809_SEED_8.476e5_VKIN_6587.000_EPS_9.565/analysis/galaxypropertybins/step_{step}/m000p-{step}.galaxypropertybins"
+galaxy_particles = "/eagle/OpenCosmo/SCIDAC_new/KAPPA_2.381_EGW_0.809_SEED_8.476e5_VKIN_6587.000_EPS_9.565/analysis/galaxyparticles/step_624/m000p-624.galaxyparticles"
+galaxy_sg_particles = "/eagle/OpenCosmo/SCIDAC_new/KAPPA_2.381_EGW_0.809_SEED_8.476e5_VKIN_6587.000_EPS_9.565/analysis/galaxyparticles/step_624/m000p-624.galaxyparticles.subgrid"
+tmp_path = "/lus/grand/projects/OpenCosmo/whicks/havoccquery/912f7798-68b8-4871-8808-f2c3f575194e"
+fig_path = "/lus/grand/projects/OpenCosmo/whicks/havoccquery/912f7798-68b8-4871-8808-f2c3f575194e/havocc_output/figures"
+
+[havocc_general]
+figure_format = "png"
+figure_dpi = 200
+add_label_to_figures = false
+label = "KAPPA_2.381_EGW_0.809_SEED_8.476e5_VKIN_6587.000_EPS_9.565"
+verbose = false
+
+[cosmology]
+OMEGA_CDM = 0.26067
+DEUT = 0.02242
+HUBBLE = 0.6766
+S8 = 0.8102
+NS = 0.9665
+
+[HACC]
+Z_IN = 200.0
+Z_FIN = 0.0
+NSTEPS = 625
+RL = 128.0
+NG = 512.0
+NP = 512.0
+AGN_RAD_EFF = 0.2
+
+[cosmotools]
+TIMESTEPS = [ 624,]
+PROFILE_NBINS = 51
+
+[analysis]
+ApertureStellarMass_DBScanStellarMass = false
+BHMass_StellarMass = false
+BHMass_StellarVelDisp = false
+Chi_BHMass = false
+GalStellarMassFunction = false
+GalaxyGasOutflow = false
+GalaxyMetallicityGas = false
+GalaxyMetallicitySFGas = false
+GalaxyMetallicityStars = false
+GalaxySDSSColorDistributions = false
+GalaxySSFR = false
+GalaxySize_StellarMass = false
+QuenchedFraction = false
+StellarAgeHistogram = false
+StellarMass_HaloMass = false
+StellarMass_HaloMass_Ratio = false
+TullyFisher = false
+BaryonFraction_HaloMass = false
+ConcentrationMassRelation = false
+HaloGasOutflow = false
+HaloMassFunction = false
+LxBolometricEx_M500 = false
+LxBolometricEx_M500gas = false
+LxBolometric_M500 = false
+LxBolometric_M500gas = false
+M200_M500 = false
+M200_M500_Ratio = false
+M500HSE_M500_Ratio = false
+Mgas2500_M500_Ratio = false
+MgasShellRatio_M2500 = false
+Mgas_M500 = false
+Mgas_M500_HSE = false
+Mgas_M500_HSE_Ratio = false
+Mgas_M500_Ratio = false
+Mstar_M500 = false
+Mstar_M500_Ratio = false
+NeutralHydrogen_M200 = false
+TxEx_M500 = false
+TxEx_M500HSE = false
+TxEx_M500gas = false
+Tx_M500 = false
+Tx_M500HSE = false
+Tx_M500gas = false
+WindMassLoading = false
+WindVelocity = false
+YSZ500_M500 = false
+YSZ500_M500gas = false
+YSZ5R500_M500 = false
+Yx_M500 = false
+Yx_M500gas = false
+ClusterCoreCuspStatistics = false
+ClusterCoreElectronDensityProfileFitStatistics = false
+ClusterCoreElectronDensityStatistics = false
+ClusterCoreEntropyStatistics = false
+ClusterCoreTCoolStatistics = false
+LxBolometricEx_Tx = false
+LxBolometric_Tx = false
+LxROSATEx_M500 = false
+LxROSAT_M500 = false
+LxTxROSAT = false
+LxTxROSAT_Ex = false
+ClusterElectronEntropyProfile = true
+ClusterGasDensityProfile = true
+ClusterGasElectronDensityProfile = true
+ClusterGasElectronDensityProfileR = false
+ClusterGasEntropyProfile = true
+ClusterGasIndividualDensityProfiles = false
+ClusterGasIndividualElectronDensityProfiles = false
+ClusterGasMetallicityProfile = true
+ClusterGasPressureProfile = true
+ClusterGasTemperatureProfile = true
+ClusterGasYProfile = true
+HaloDensityProfiles = false
+BHARD = false
+CSFR = false
+GlobalBaryonPhase = false
+GlobalGasPhase = false
+GlobalGasPhaseVolume = false
+GlobalStellarDensity = false
+PowerSpectrum = false
+BinnedParticleStats_HHMuRho = false
+BinnedParticleStats_MbhSfrTageEbh = false
+BinnedParticleStats_PhiMassUU = false
+BinnedParticleStats_PosVelAcc = false
+BinnedParticleStats_ZmetYhe = false
+RhoTDiagram = false
+RhoTDiagramAGN = false
+
+[ClusterGasDensityProfile]
+log_mass_range = [ 12.0, 13.0,]
+mass_field = "sod_halo_MVir"
+separate_cool_core = false
+cool_core_percentile = 33.0
+cool_core_criterion = "sod_halo_core_entropy"
+log_radius_range = [ -2.0, 0.5,]
+radius_nbins = 20
+interpolate_and_stack_in_log_y = true
+stack_in_normalized_radii = true
+show_Flamingo2023 = true
+show_TNGCluster2023 = true
+show_Ghirardini2019 = true
+show_McDonald2013 = true
+show_McDonald2017_avg = true
+show_McDonald2017_median = true
+
+[ClusterGasElectronDensityProfile]
+log_mass_range = [ 12.0, 13.0,]
+mass_field = "sod_halo_MVir"
+separate_cool_core = false
+cool_core_percentile = 33.0
+cool_core_criterion = "sod_halo_core_entropy"
+log_radius_range = [ -2.0, 0.5,]
+radius_nbins = 20
+interpolate_and_stack_in_log_y = true
+stack_in_normalized_radii = true
+show_Ghirardini2019 = true
+show_McDonald2013 = true
+show_McDonald2017_avg = true
+show_McDonald2017_median = true
+show_Flamingo2023 = true
+
+[ClusterGasEntropyProfile]
+log_mass_range = [ 12.0, 13.0,]
+mass_field = "sod_halo_MVir"
+separate_cool_core = false
+cool_core_percentile = 33.0
+cool_core_criterion = "sod_halo_core_entropy"
+log_radius_range = [ -2.0, 0.5,]
+radius_nbins = 20
+interpolate_and_stack_in_log_y = true
+stack_in_normalized_radii = true
+HACC_entropy_is_log = false
+show_Flamingo2023 = true
+show_TNGCluster2023 = true
+show_Ghirardini2019 = true
+show_McDonald2014 = true
+show_Voit2005 = true
+
+[ClusterElectronEntropyProfile]
+log_mass_range = [ 12.0, 13.0,]
+mass_field = "sod_halo_MVir"
+separate_cool_core = false
+cool_core_percentile = 33.0
+cool_core_criterion = "sod_halo_core_entropy"
+log_radius_range = [ -2.0, 0.5,]
+radius_nbins = 20
+interpolate_and_stack_in_log_y = true
+stack_in_normalized_radii = true
+HACC_entropy_is_log = false
+show_Flamingo2023 = true
+show_TNGCluster2023 = true
+show_Ghirardini2019 = true
+show_McDonald2014 = true
+show_Voit2005 = true
+
+[ClusterGasMetallicityProfile]
+log_mass_range = [ 12.0, 13.0,]
+mass_field = "sod_halo_MVir"
+separate_cool_core = false
+cool_core_percentile = 33.0
+cool_core_criterion = "sod_halo_core_entropy"
+log_radius_range = [ -2.0, 0.5,]
+radius_nbins = 20
+interpolate_and_stack_in_log_y = true
+stack_in_normalized_radii = true
+show_Flamingo2023 = true
+show_MillenniumTNG2022 = true
+show_Lovisari2019 = true
+
+[ClusterGasPressureProfile]
+log_mass_range = [ 12.0, 13.0,]
+mass_field = "sod_halo_MVir"
+separate_cool_core = false
+cool_core_percentile = 33.0
+cool_core_criterion = "sod_halo_core_entropy"
+log_radius_range = [ -2.0, 0.5,]
+radius_nbins = 20
+interpolate_and_stack_in_log_y = true
+stack_in_normalized_radii = true
+show_Flamingo2023 = true
+show_TNGCluster2023 = true
+show_Ghirardini2019 = true
+show_McDonald2014 = true
+show_Battaglia2012 = true
+show_Arnaud2010 = true
+show_Sayers2013 = true
+show_Sayers2016 = true
+
+[ClusterGasTemperatureProfile]
+log_mass_range = [ 12.0, 13.0,]
+mass_field = "sod_halo_MVir"
+separate_cool_core = false
+cool_core_percentile = 33.0
+cool_core_criterion = "sod_halo_core_entropy"
+log_radius_range = [ -2.0, 0.5,]
+radius_nbins = 20
+interpolate_and_stack_in_log_y = true
+stack_in_normalized_radii = true
+show_Flamingo2023 = true
+show_TNGCluster2023 = true
+show_Ghirardini2019 = true
+show_McDonald2014 = true
+
+[ClusterGasYProfile]
+log_mass_range = [ 12.0, 13.0,]
+mass_field = "sod_halo_MVir"
+separate_cool_core = false
+cool_core_percentile = 33.0
+cool_core_criterion = "sod_halo_core_entropy"
+log_radius_range = [ -2.0, 0.5,]
+radius_nbins = 20
+interpolate_and_stack_in_log_y = true
+stack_in_normalized_radii = true
