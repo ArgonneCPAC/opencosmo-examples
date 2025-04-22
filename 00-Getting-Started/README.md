@@ -3,6 +3,12 @@ Getting Started
 
 This folder contains activies that are desgigned to get you started working with the comptue portal and toolkit for the first time. Some of these activities have notebooks which guide you through the process.
 
+### Tutorials
+
+- Download halo properties and create a halo mass function plot from the Frontier-E simulation using the toolkit
+
+- Create HAVOCC plots using the portal and inspect them
+
 ### Activities
 
 - For a mass range and redshift slice of your choice, plot the concentration-mass relationship for halos in the Frontier-E Simulation.
