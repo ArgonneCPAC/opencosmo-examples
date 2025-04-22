@@ -17,4 +17,5 @@ This folder contains activies that are desgigned to get you started working with
 
 - Using the compute portal, retrieve a sample of halos of your choice from two different redshifts. Examine the relationship between the FoF and SOD halo masses. What does this tell you about the evolution of these structures over cosmic time?
 
-
+- Use the compute portal to generate stacked radial profiles for two different halo mass ranges. Combine the two mean profiles onto one plot for comparison.
+  
