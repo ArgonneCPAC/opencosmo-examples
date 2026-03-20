@@ -1,0 +1,26 @@
+# Table of contents for OpenCosmo Examples Jupyter Book
+format: jb-book
+root: README
+
+chapters:
+  - caption: Getting Started
+    chapters:
+      - file: 00-Getting-Started/README
+      - file: 00-Getting-Started/Halo Mass Function/Mass_Func
+      - file: 00-Getting-Started/HAvoCC/havocc_query_example
+
+  - caption: Intermediate
+    chapters:
+      - file: 01-Intermediate/README
+      - file: 01-Intermediate/CM Relation/cm_relation_hydro
+      - file: 01-Intermediate/Pressure Profile/PressureProfiles
+
+  - caption: Advanced
+    chapters:
+      - file: 02-Advanced/README
+      - file: 02-Advanced/Particles/Particle_investigation
+      - file: 02-Advanced/Lightcone/Lightcone_data
+
+  - caption: Diffsky
+    chapters:
+      - file: 03-Diffsky/demo_diffmah_diffstar

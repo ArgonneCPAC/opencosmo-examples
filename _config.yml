@@ -1,0 +1,24 @@
+# Jupyter Book configuration for OpenCosmo Examples
+title: OpenCosmo Examples
+author: Argonne CPAC
+logo: branding/opencosmo_simple_transparent.png
+
+# Repository info for source links
+repository:
+  url: https://github.com/ArgonneCPAC/opencosmo-examples
+  branch: main
+
+# Disable notebook execution — notebooks require external API access and data files
+execute:
+  execute_notebooks: "off"
+
+# HTML output settings
+html:
+  use_issues_button: true
+  use_repository_button: true
+  use_edit_page_button: false
+
+# Sphinx settings
+sphinx:
+  config:
+    html_show_copyright: false
