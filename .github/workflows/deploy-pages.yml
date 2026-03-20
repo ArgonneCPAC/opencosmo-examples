@@ -33,7 +33,7 @@ jobs:
           python-version: "3.13"
           cache: "pip"
       - name: Install Jupyter Book
-        run: pip install -r requirements-book.txt
+        run: pip install -r requirements.txt
       - name: Build the book
         run: jupyter-book build .
 
