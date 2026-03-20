@@ -2,7 +2,7 @@
 format: jb-book
 root: README
 
-chapters:
+parts:
   - caption: Getting Started
     chapters:
       - file: 00-Getting-Started/README
