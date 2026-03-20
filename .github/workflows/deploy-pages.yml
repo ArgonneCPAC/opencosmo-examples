@@ -51,7 +51,6 @@ jobs:
     if: github.ref == 'refs/heads/main'
     steps:
       - run: echo "Deploying to production..."
-    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
