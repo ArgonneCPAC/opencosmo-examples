@@ -14,9 +14,13 @@ project:
     - title: Tutorials
       children:
         - file: tutorials/basic_querying.ipynb
-        - file: tutorials/demo_diffsky_nersc.ipynb
         - file: tutorials/haloparticles.ipynb
         - file: tutorials/lightcone_data.ipynb
+        - file: tutorials/demo_diffsky_nersc.ipynb
+        - file: tutorials/Galaxy_scaling_relations.ipynb
+        - file: tutorials/DBSCAN_comparison.ipynb
+        - file: tutorials/visualizing.ipynb
+        - file: tutorials/Relaxed_Halo_Properties.ipynb
   settings:
     output_matplotlib_strings: remove
     output_stderr: remove-warn
