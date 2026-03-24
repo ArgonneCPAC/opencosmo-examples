@@ -1,0 +1,159 @@
+
+.myst-fm-block-title {
+  font-weight: 650;
+  letter-spacing: -0.015em;
+  line-height: 1.2;
+  font-size: 2.3rem;
+  margin-bottom: 0.4rem !important;
+  color: #1e293b !important;
+}
+
+
+html.light .myst-fm-block-title {
+  color: #1e293b !important;
+}
+
+html.dark .myst-fm-block-title {
+  color: #e2e8f0 !important;
+}
+
+
+/* Each row */
+.meta-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.meta-row:last-child {
+  margin-bottom: 0;
+}
+
+/* Labels like "Data", "Tasks" */
+.meta-label {
+  font-weight: 600;
+  color: #475569;
+  margin-right: 0.5rem;
+}
+
+/* Chips */
+.chip {
+  display: inline-block;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+/* Data chips */
+.chip-data {
+  background: #eef2ff;
+  color: #3730a3;
+}
+
+/* Task chips */
+.chip-task {
+  background: #ecfeff;
+  color: #155e75;
+}
+
+
+.meta-block {
+  background: transparent;
+  border: none;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+}
+
+
+.meta-label {
+  font-weight: 500;
+}
+
+html.light .meta-label {
+  color: #475569;  /* slate-600 */
+}
+
+html.dark .meta-label {
+  color: #94a3b8;  /* slate-400 */
+}
+
+.hover-note {
+  position: relative;
+  cursor: help;
+  border-bottom: 1px dotted currentColor;
+}
+
+/* Hidden content */
+.hover-note-content {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+
+  position: absolute;
+  left: 0;
+  top: 120%;
+  z-index: 10;
+
+  width: 260px;
+  padding: 0.6rem 0.75rem;
+  border-radius: 0.5rem;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+/* Light mode */
+html.light .hover-note-content {
+  background: #f8fafc;
+  color: #334155;
+  border: 1px solid #e2e8f0;
+}
+
+/* Dark mode */
+html.dark .hover-note-content {
+  background: #111827;
+  color: #cbd5e1;
+  border: 1px solid #374151;
+}
+
+/* Show on hover */
+.hover-note:hover .hover-note-content {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*
+.side-note {
+  float: right;
+  width: 260px;
+  margin: 0 0 1rem 1.5rem;
+  padding: 0.6rem 0.75rem;
+
+  font-size: 0.85rem;
+  line-height: 1.4;
+
+  border-radius: 0.75rem;
+  position: relative;
+}
+.side-note::before {
+  content: "";
+  position: absolute;
+  left: -8px;
+  top: 10px;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+}
+
+html.light .side-note::before {
+  border-right: 8px solid #f1f5f9;
+}
+
+html.dark .side-note::before {
+  border-right: 8px solid #0f172a;
+}
+*/
