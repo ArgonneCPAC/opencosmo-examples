@@ -17,6 +17,7 @@ project:
         - file: tutorials/haloparticles.ipynb
         - file: tutorials/lightcone_data.ipynb
         - file: tutorials/demo_diffsky_nersc.ipynb
+        - file: tutorials/demo_diffmah_diffstar.ipynb
         - file: tutorials/Galaxy_scaling_relations.ipynb
         - file: tutorials/DBSCAN_comparison.ipynb
         - file: tutorials/visualizing.ipynb
