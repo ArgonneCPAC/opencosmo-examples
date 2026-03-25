@@ -23,6 +23,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      BASE_URL: https://argonnecpac.github.io/opencosmo-examples/
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
