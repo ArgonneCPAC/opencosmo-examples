@@ -1,3 +1,5 @@
 # MyST build outputs
 _build
 tutorials/*.hdf5
+**/.DS_Store
+**/.ipynb_checkpoints/**/*
