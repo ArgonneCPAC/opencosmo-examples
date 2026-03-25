@@ -17,6 +17,7 @@ html:
   use_issues_button: true
   use_repository_button: true
   use_edit_page_button: false
+  baseurl: "https://argonnecpac.github.io/opencosmo-examples/"
 
 # Sphinx settings
 sphinx:
