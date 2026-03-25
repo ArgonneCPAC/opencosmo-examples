@@ -5,10 +5,14 @@
 :::{tab-item} Halo Properties
 - [](tutorials/basic_querying)
 - [](tutorials/haloparticles)
+- [](tutorials/Relaxed_Halo_Properties)
+- [](tutorials/visualizing)
 :::
 
 :::{tab-item} Halo Particles
 - [](tutorials/haloparticles)
+- [](tutorials/Relaxed_Halo_Properties)
+- [](tutorials/visualizing)
 :::
 
 :::{tab-item} Healpix Map
@@ -25,10 +29,14 @@
 
 :::{tab-item} Galaxy Properties
 - [](tutorials/basic_querying)
+- [](tutorials/DBSCAN_comparison)
+- [](tutorials/Galaxy_scaling_relations)
 :::
 
 :::{tab-item} Linked Datasets
 - [](tutorials/haloparticles)
+- [](tutorials/Relaxed_Halo_Properties)
+- [](tutorials/visualizing)
 :::
 
 ::::
