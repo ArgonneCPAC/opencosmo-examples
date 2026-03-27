@@ -22,6 +22,7 @@ project:
         - file: tutorials/DBSCAN_comparison.ipynb
         - file: tutorials/visualizing.ipynb
         - file: tutorials/Relaxed_Halo_Properties.ipynb
+        - file: tutorials/Compute_HOD.ipynb
   settings:
     output_matplotlib_strings: remove
     output_stderr: remove-warn
