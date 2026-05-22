@@ -18,11 +18,11 @@ project:
         - file: tutorials/lightcone_data.ipynb
         - file: tutorials/demo_diffsky_nersc.ipynb
         - file: tutorials/demo_diffmah_diffstar.ipynb
-        - file: tutorials/Galaxy_scaling_relations.ipynb
-        - file: tutorials/DBSCAN_comparison.ipynb
+        - file: tutorials/galaxy_scaling_relations.ipynb
+        - file: tutorials/dbscan_comparison.ipynb
         - file: tutorials/visualizing.ipynb
-        - file: tutorials/Relaxed_Halo_Properties.ipynb
-        - file: tutorials/Compute_HOD.ipynb
+        - file: tutorials/relaxed_halo_properties.ipynb
+        - file: tutorials/hod_compute.ipynb
   settings:
     output_matplotlib_strings: remove
     output_stderr: remove-warn
