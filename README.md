@@ -1,10 +1,15 @@
 OpenCosmo Examples
 ===================
+The OpenCosmo toolkit is a comprehensive data access and analysis library for working with cosmological simulation data. It provides easy, high-level access to complex data products, and aims to make data management tasks disappear in the background, so you can focus on your science.
 
-This repo contains tutorials for the [OpenCosmo](https://opencosmo.readthedocs.io/en/stable/) toolkit. To get started try [](tutorials/basic_querying), or explore the tutorial set for more specific examples.
+This website contains tutorials that aim to demonstrate the key features of the toolkit, as well as show some examples of real analysis tasks you can perform with the toolkit's capabilities. We recommend starting here if you're just getting started. Once you get a feel for how the toolkit works, you can check out the [full technical documentation](https://opencosmo.readthedocs.io) for a more complete overview and API documentation.
+
+
+If you're just getting started try the [basic querying tutorial](tutorials/basic_querying), or explore the tutorial set for more specific examples.
 
 :::{note}
-Looking for the data? Try the [CosmoExplorer](https://cosmoexplorer.alcf.anl.gov) compute portal, and then come back here to explore it using the toolkit
+
+Looking for the data? The datasets used for these tutorials are publicly available to download from [NERSC](https://portal.nersc.gov/cfs/hacc/OpenCosmo/). You can perform your own queries with the [CosmoExplorer](https://cosmoexplorer.alcf.anl.gov)
 :::
 
 
