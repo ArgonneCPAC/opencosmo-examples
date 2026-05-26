@@ -1,3 +1,11 @@
+/* Increase header logo and nav bar size */
+.myst-top-nav {
+  height: 72px !important;
+}
+
+.myst-home-link-logo img {
+  height: 3rem !important;
+}
 
 .myst-fm-block-title {
   font-weight: 650;
