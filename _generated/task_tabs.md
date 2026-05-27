@@ -2,35 +2,60 @@
 
 ::::{tab-set}
 
-:::{tab-item} Querying Data
-- [](tutorials/basic_querying)
-- [](tutorials/DBSCAN_comparison)
+:::{tab-item} Query
 - [](tutorials/demo_diffsky_nersc)
-- [](tutorials/Galaxy_scaling_relations)
+- [](tutorials/basic_querying)
+- [](tutorials/galaxy_scaling_relations)
+- [](tutorials/dbscan_comparison)
+:::
+
+:::{tab-item} Select
+- [](tutorials/demo_diffsky_nersc)
+- [](tutorials/relaxed_halo_properties)
+- [](tutorials/demo_diffmah_diffstar)
+- [](tutorials/galaxy_scaling_relations)
+- [](tutorials/dbscan_comparison)
+:::
+
+:::{tab-item} Filter
+- [](tutorials/demo_diffsky_nersc)
+- [](tutorials/relaxed_halo_properties)
+- [](tutorials/demo_diffmah_diffstar)
+- [](tutorials/hod_compute)
+- [](tutorials/dbscan_comparison)
+- [](tutorials/profiles)
+:::
+
+:::{tab-item} Add Columns
+- [](tutorials/demo_diffsky_nersc)
+- [](tutorials/basic_querying)
+- [](tutorials/relaxed_halo_properties)
+- [](tutorials/demo_diffmah_diffstar)
+- [](tutorials/hod_compute)
+- [](tutorials/visualizing)
+- [](tutorials/profiles)
+:::
+
+:::{tab-item} Evaluate
+- [](tutorials/demo_diffsky_nersc)
+- [](tutorials/relaxed_halo_properties)
+- [](tutorials/demo_diffmah_diffstar)
+- [](tutorials/hod_compute)
+- [](tutorials/xray_agn)
+- [](tutorials/profiles)
+:::
+
+:::{tab-item} Spatial Operations
 - [](tutorials/haloparticles)
-- [](tutorials/lightcone_data)
-- [](tutorials/Relaxed_Halo_Properties)
 - [](tutorials/visualizing)
-:::
-
-:::{tab-item} Adding new Columns
-- [](tutorials/basic_querying)
-- [](tutorials/demo_diffsky_nersc)
-- [](tutorials/Relaxed_Halo_Properties)
-- [](tutorials/visualizing)
-:::
-
-:::{tab-item} Evaluating Complex
-- [](tutorials/demo_diffsky_nersc)
-- [](tutorials/Relaxed_Halo_Properties)
-:::
-
-:::{tab-item} Spatial Querying
+- [](tutorials/xray_agn)
 - [](tutorials/lightcone_data)
 :::
 
 :::{tab-item} Visualization
 - [](tutorials/visualizing)
+- [](tutorials/xray_agn)
+- [](tutorials/lightcone_data)
 :::
 
 ::::

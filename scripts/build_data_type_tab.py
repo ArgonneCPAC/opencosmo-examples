@@ -9,6 +9,7 @@ OUTDIR = BOOK_ROOT / "_generated"
 def is_real_notebook(nb_path):
     return (
         ".ipynb_checkpoints" not in nb_path.parts
+        and ".virtual_documents" not in nb_path.parts
         and not nb_path.stem.endswith("-checkpoint")
     )
 
@@ -91,7 +92,7 @@ build_tabset(
         "Filter",
         "Add Columns",
         "Evaluate",
-        "Spatial Selection",
+        "Spatial Operations",
         "Visualization",
     ],
 )

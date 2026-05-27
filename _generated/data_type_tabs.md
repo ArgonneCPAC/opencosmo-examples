@@ -4,29 +4,40 @@
 
 :::{tab-item} Halo Properties
 - [](tutorials/basic_querying)
+- [](tutorials/relaxed_halo_properties)
+- [](tutorials/hod_compute)
 - [](tutorials/haloparticles)
-- [](tutorials/Relaxed_Halo_Properties)
 - [](tutorials/visualizing)
+- [](tutorials/xray_agn)
+- [](tutorials/profiles)
 :::
 
 :::{tab-item} Halo Particles
+- [](tutorials/relaxed_halo_properties)
 - [](tutorials/haloparticles)
-- [](tutorials/Relaxed_Halo_Properties)
 - [](tutorials/visualizing)
-:::
-
-:::{tab-item} Galaxy Properties
-- [](tutorials/basic_querying)
-- [](tutorials/DBSCAN_comparison)
-- [](tutorials/Galaxy_scaling_relations)
-:::
-
-:::{tab-item} Lightcone Catalogs and Maps
-- [](tutorials/lightcone_data)
+- [](tutorials/xray_agn)
+- [](tutorials/profiles)
 :::
 
 :::{tab-item} Diffsky Galaxies
 - [](tutorials/demo_diffsky_nersc)
+- [](tutorials/demo_diffmah_diffstar)
+:::
+
+:::{tab-item} Galaxy Properties
+- [](tutorials/basic_querying)
+- [](tutorials/galaxy_scaling_relations)
+- [](tutorials/hod_compute)
+- [](tutorials/dbscan_comparison)
+:::
+
+:::{tab-item} Halo Profiles
+- [](tutorials/profiles)
+:::
+
+:::{tab-item} Lightcone Catalogs and Maps
+- [](tutorials/lightcone_data)
 :::
 
 ::::

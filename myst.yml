@@ -22,11 +22,13 @@ project:
         - file: tutorials/dbscan_comparison.ipynb
         - file: tutorials/demo_diffmah_diffstar.ipynb
         - file: tutorials/relaxed_halo_properties.ipynb
+        - file: tutorials/profiles.ipynb
     - title:  Visualizations
       children:
         - file: tutorials/haloparticles.ipynb
         - file: tutorials/visualizing.ipynb
         - file: tutorials/lightcone_data.ipynb
+        - file: tutorials/xray_agn.ipynb
     - url: 'https://opencosmo.readthedocs.io/en/stable/'
       title: Full Library Documentation
   settings:
