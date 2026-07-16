@@ -2,6 +2,17 @@ OpenCosmo Examples
 ===================
 The OpenCosmo toolkit is a comprehensive data access and analysis library for working with cosmological simulation data. It provides easy, high-level access to complex data products, and aims to make data management tasks disappear in the background, so you can focus on your science.
 
+Before getting started, be sure to install the OpenCosmo toolkit with `pip` or `conda`. You will need Python 3.12 or above. For more details see the [full installation instructurion](https://opencosmo.readthedocs.io/en/stable/installation.html).
+
+
+```bash
+pip install opencosmo
+```
+
+```bash
+conda install -c conda-forge opencosmo
+```
+
 This website contains tutorials that aim to demonstrate the key features of the toolkit, as well as show some examples of real analysis tasks you can perform with the toolkit's capabilities. We recommend starting here if you're just getting started. Once you get a feel for how the toolkit works, you can check out the [full technical documentation](https://opencosmo.readthedocs.io) for a more complete overview and API documentation.
 
 
